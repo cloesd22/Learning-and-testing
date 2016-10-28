@@ -1,5 +1,15 @@
-kram20b141d38edff297d34a92593bd4051f748b9f01a9b64784c6af03a7f793003d
+var fs = require("fs");
+
+fs.readFile('yatestingcunt.txt', function (err,data)
+	{
+	if (err){
+				console.log('yamum');
+				return;
+			}
+			console.log(data.toString());
+	
+			
 
 
-Address:
-0x8D39c53067Fc4926f25D498b843536ADf10e2eF5
+	});
+	console.log("Program Ended");
