@@ -1,0 +1,37 @@
+var events = require('events')
+var eventspewer = new events.EventEmitter();
+
+//listener #1
+var ear1 = function ear1(){
+
+console.log('echo 1 reporting in');
+
+}
+
+//listener #2
+var ear2 = function ear2() {
+
+console.log("echo 2 reporting in")
+}
+
+//Bind connection and ear1
+
+eventspewer.addListener('connection','ear1);
+
+//Bind connection even with ear 2
+eventspewer.addListener('connection','ear2');
+
+//so far we've bound two listeners to the event spewer object.
+//we can query eventspewer to see how many listeneres it has.
+
+var eventlisteners = require('events').EventEmitter.listenerCount(eventspewer,'connection')
+console.log('eventlisteners + " listeners are listening to connection")
+
+//the above line delcares variable eventlisnters (an integer) to the listenerCount result of function EventEmitter. THis requrie us to feed in which event emmitter
+//it's talking about, which is event spewer.
+
+
+//we can then trigger the 'flag' 'connection'.
+
+eventspewer.emit('connection');
+
