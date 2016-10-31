@@ -10,6 +10,6 @@ height:600,
 frame:false
 
 })
-mainWindow.loadURL('file://'+__dirname+'/index.html')
+mainWindow.loadURL('file:///E:/Electronus/Gittesting/Electron/livetest.html')
 
 })
