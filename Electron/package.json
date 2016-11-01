@@ -4,8 +4,7 @@
   "description": "electron testing",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
-    
+    "start": "electron ."    
   },
   "author": "",
   "license": "ISC",

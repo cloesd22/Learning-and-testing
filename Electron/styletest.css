@@ -1,3 +1,4 @@
+
 /* css Zen Garden default style v1.02 */
 /* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
 
@@ -54,7 +55,7 @@ abbr {
 .page-wrapper { 
 	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
 	padding: 0 175px 0 110px;  
-	margin: 0; 
+	margin: 100px; 
 	position: relative;
 	}
 
@@ -197,3 +198,16 @@ footer a:link, footer a:visited {
 .hide {
 display:none;
 }
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: initial;
+}
+
