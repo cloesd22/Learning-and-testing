@@ -1,3 +1,4 @@
+var $ = require('jQuery');
 
 var numOne = document.getElementById("num-one");
 var numTwo = document.getElementById("num-two");
@@ -24,7 +25,7 @@ numOne.addEventListener("input",add);
 numTwo.addEventListener("input",add);
 colorin.addEventListener("input",colorchange);
 
-for (i=0; i<lists.length;i++)
+for (i=0; i<listitems.length;i++)
     {
         listitems[i].addEventListener("click", showfield)
         inputs[i].addEventListener("blur", blurfield)
@@ -79,6 +80,7 @@ function colorchange(){
      document.body.style.background = colorin.value;
 }
 
+
 placePick.addEventListener("input",showpic);
                            
     function showpic()
@@ -102,12 +104,42 @@ placePick.addEventListener("input",showpic);
         }else{
             pic.className="hide";    
         }
+        
+        
+        pic.addEventListener('mouseover',zoomPic);
+        pic.addEventListener('mouseleave',closePic);
+        pic.classList.add("yabing");
+  
+        
+        $(document).ready(function()
+        {
+            $(pic).click(function(){
+            $(".yabing").fadeOut(1000,function(){ $(this).classList=""; console.log(this.classList); this.style.display="initial";});
+            });
 
+        });
 
+ 
+
+    }
+
+    function zoomPic()
+    {
+ 
+        this.style.width="1000px";
+        this.style.height="auto";
+
+    }
+
+    
+    function closePic()
+    {
+
+        this.style.width="50px";
+        this.style.height="50px";
 
     }
 
 
-
-
+ 
 
