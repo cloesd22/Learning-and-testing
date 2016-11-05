@@ -1,0 +1,8 @@
+E:\Electronus\Gittesting\ASP.net\TutorialX1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\Electronus\Gittesting\ASP.net\TutorialX1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\Electronus\Gittesting\ASP.net\TutorialX1\ClassLibrary1\bin\Debug\ClassLibrary1.xml
+E:\Electronus\Gittesting\ASP.net\TutorialX1\ClassLibrary1\obj\Debug\ClassLibrary1.Resources.resources
+E:\Electronus\Gittesting\ASP.net\TutorialX1\ClassLibrary1\obj\Debug\ClassLibrary1.vbproj.GenerateResource.Cache
+E:\Electronus\Gittesting\ASP.net\TutorialX1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\Electronus\Gittesting\ASP.net\TutorialX1\ClassLibrary1\obj\Debug\ClassLibrary1.xml
+E:\Electronus\Gittesting\ASP.net\TutorialX1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
