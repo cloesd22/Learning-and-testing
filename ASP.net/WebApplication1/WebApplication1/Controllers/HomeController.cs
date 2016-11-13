@@ -38,10 +38,9 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        
+        [Authorize]
         public ActionResult Foo()
         {
-            
             return View("About");
         }
 
