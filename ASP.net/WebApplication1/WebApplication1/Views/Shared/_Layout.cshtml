@@ -33,7 +33,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - FaceMatch</p>
+            <p>&copy; @DateTime.Now.Year - FaceMatch - @Html.Action("Serial", "Home", new { letterCase = "lower"}) </p>
         </footer>
     </div>
 
