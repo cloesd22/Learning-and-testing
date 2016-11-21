@@ -7,22 +7,15 @@
 
 
 <div class="container body-content">
-
-
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"><div class="col-lg-6 margin-top-20 col-centered"><a href="#" class="btn btn-default btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-down"></span> Insert Face</a></div></div>
-        <div class="col-md-4"></div>
-          
-    </div>
     <div class="row">
         <div class="col-lg-2 margin-top-20"><a href="#" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-circle-arrow-down"></span> Withdrawl</a></div>
         <div class="col-lg-2 margin-top-20"><a href="#" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-flash"></span> Quick Cash</a></div>
-        <div class="col-lg-2 margin-top-20"><a href="#" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-question-sign"></span> Balance Inquiry</a></div>
-        <div class="col-lg-2 margin-top-20"><a href="#" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-print"></span> Print Statement</a></div>
-        <div class="col-lg-2 margin-top-20"><a href="#" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Deposit Funds</a></div>
-        <div class="col-lg-2 margin-top-20"><a href="#" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-transfer"></span> Transfer Funds</a></div>
-    </div>
+        @*<a href="@Url.Action("Details","CheckingAccount")" class="btn btn-primary btn-large btn-block">*@
+            <div class="col-lg-2 margin-top-20"><a href="@Url.Action("Details","CheckingAccount")" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-question-sign"></span> Balance Inquiry</a></div>
+            <div class="col-lg-2 margin-top-20"><a href="#" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-print"></span> Print Statement</a></div>
+            <div class="col-lg-2 margin-top-20"><a href="#" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Deposit Funds</a></div>
+            <div class="col-lg-2 margin-top-20"><a href="#" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-transfer"></span> Transfer Funds</a></div>
+</div>
 </div>
     
 
