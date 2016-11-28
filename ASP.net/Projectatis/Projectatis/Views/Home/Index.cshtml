@@ -12,38 +12,19 @@
 <div class="row">
     <div class="col-md-12">
         <h2 class="text-center">
-            
-            @helper colorpicker(decimal number)
-                {
-                    var color="black";
-                    if (number>300)
-                    {
-                        color="green";
-                    }
-
-                <span style="color:@color">@Html.Action("Details", "money")</span>
-
-                }
-            
-           
-            
-
-          
-            
-
-
+              @Html.Action("Details","money")
         </h2>
     </div>
 </div>
 
 <div class="row">
         <div class="col-md-6">
-            <a href="#" class="btn btn-primary btn-block btn-lg">Full Roll</a>
+            <a href="@Url.Action("fulroll","money")" class="btn btn-primary btn-block btn-lg">Full Roll</a>
             <p class="text-info">Full rolls risk the full amount for a double or nothing style play.</p>
         </div>
 
         <div class="col-md-6">
-            <a href="#" class="btn btn-primary btn-block btn-lg">Standard Roll</a>
+            <a href="@Url.Action("fulroll","money")" class="btn btn-primary btn-block btn-lg">Standard Roll</a>
             <p class="text-info">Standard rolls risk 10% of the amount for a 10% return or 10% fall.</p>
         </div>
 

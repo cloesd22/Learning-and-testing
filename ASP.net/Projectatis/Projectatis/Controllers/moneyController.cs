@@ -15,6 +15,22 @@ namespace Projectatis.Controllers
             return View();
         }
 
+        public ActionResult stdroll()
+        {
+
+
+            return View("~/Views/Home/Index.cshtml");
+        }
+
+        public ActionResult fulroll()
+        {
+
+
+            return View("~/Views/Home/Index.cshtml");
+        }
+
+
+
         // GET: money/Details/5
         public ActionResult Details()
         {
